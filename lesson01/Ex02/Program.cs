@@ -4,3 +4,15 @@
 // a = 2, b = 10 -> no
 // a = 9, b = -3 -> yes
 // a = -3, b = 9 -> no
+
+int a = -3;
+int b = 9;
+
+if (b * b == a)
+{
+    Console.WriteLine("yes");
+}
+else
+{
+    Console.WriteLine("no");
+}
