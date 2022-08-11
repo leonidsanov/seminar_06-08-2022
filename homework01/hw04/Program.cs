@@ -11,10 +11,6 @@ while (i <= N)
     if (i % 2 == 0)
     {
         Console.WriteLine(i);
-        i = i + 1;
     }
-    else
-    {
-        i = i + 1;
-    }
+    i = i + 1;
 }
