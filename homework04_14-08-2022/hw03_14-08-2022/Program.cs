@@ -56,7 +56,7 @@ int[] ArrayOfNumbers(string seriesNew)
             СheckNumber2(seriesNew[i]);
             i++;
         }
-        arrayOfNumbers[j] = Convert.ToInt32(seriesNew1);    // заполняет массив значениями из строки
+        arrayOfNumbers[j] = Convert.ToInt32(seriesNew1);   // заполняет массив значениями из строки
         if (i < seriesNew.Length - 1)
         {
             arrayOfNumbers = arrayOfNumbers.Concat(new int[] { 0 }).ToArray();    // добавляет новый нулевой элемент в конец массива
