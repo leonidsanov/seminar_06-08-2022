@@ -8,5 +8,5 @@
 Console.WriteLine("Введите трёхзначное число: ");
 // метод Console.ReadLine() всегда возвращает тип string
 // при этом строка является массивом. Поэтому:
-string threeDigitNumber = Console.ReadLine();
-Console.WriteLine(threeDigitNumber[1]);
+string? threeDigitNumber = Console.ReadLine();
+Console.WriteLine(threeDigitNumber![1]);

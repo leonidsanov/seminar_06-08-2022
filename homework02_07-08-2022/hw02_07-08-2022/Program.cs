@@ -6,8 +6,8 @@
 
 Console.WriteLine("Введите число: ");
 // вводим число. Т.к. метод Console.ReadLine() возвращает строку пишем string
-string Number = Console.ReadLine();
-if (Number.Length > 2)
+string? Number = Console.ReadLine();
+if (Number!.Length > 2)
 {
     Console.WriteLine("третья цифра: " + Number[2]);
 }
